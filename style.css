@@ -1,0 +1,167 @@
+/*Css General*/
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Georgia, Arial, serif;
+    font-size: small;
+    background-color: #edf0f5;
+}
+/*Css barre de navigation*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    height: 100px;
+    flex-wrap: nowrap;
+    padding-left: 60px;
+    padding-right: 40px;
+    background-color: #3e5b9a;
+}
+/*Css du titre facebook*/
+.nav-titre{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+.logo{
+    margin-left: 150px;
+    font-size: 53px;
+    color: #fff;
+}
+/*Css Côté input*/
+.nav-sign{
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    margin-left: 25px;
+    color: #fff;
+    font-size: 15px;
+}
+.nav-input{
+    height: 23px;
+    width: 180px;
+    border: solid 1px #3e5b9a;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+.nav-bouton{
+    height: 25px;
+    border: solid 1px #29487c;
+    background-color: #41619c;
+    color: #fff;
+    font-size: 13px;
+}
+.nav-lien{
+    text-decoration: none;
+    color: #97afd5;
+    margin-left: 207px;
+}
+/*Css pour le conteneur*/
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    background-color: #edf0f5;
+}
+/*Css côté gauche*/
+.conteneur-gauche{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    padding-left: 100px;
+    font-size: 14px;
+    text-justify: distribute;
+}
+.boites-gauche{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    color: #6d6d6e;
+}
+.icon-gauche{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+.lien-gauche{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/*Css côté droite*/
+.conteneur-droite{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 14px;
+    color: #6d6d6e;
+}
+/*Css des input conbté droite*/
+.input-droites{
+    height: 24px;
+    width: 190px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+.input-droite{
+    height: 24px;
+    width: 400px;
+    font-size: 17px;
+}
+/*Css des selecteurs*/
+#selecteur{
+    width: 55px;
+    height: 24px;
+    margin-right: 5px;
+    background-color: #fff;
+}
+/*css des h1*/
+h1{
+    color: black;
+}
+/*Css des titre Birthday et Gender*/
+.td-titre{
+    font-size: 15px;
+    font-weight: bold;
+}
+.table{
+    margin-bottom: 14px;
+}
+/*Css des input arondi et les petits titres au niveau de genre male female et custom*/
+.input-radio{
+    color: black;
+    margin-top: 15px;
+}
+.genre{
+    color: black;
+    font-size: 15px;
+    margin-right: 20px;
+}
+/*Css pour rendre certains mots terms, data .. en bleu*/
+.span{
+    color: #3d5e9b;
+    font-weight: bold;
+}
+/*Css du bouton Sign Up*/
+.signup-bouton{
+    background-color: #5d964a;
+    height: 28px;
+    width: 140px;
+    font-size: 17px;
+    color: #fff;
+    border: solid 1px #2f5416;
+    border-radius: 4px;
+}
+/*Css du lien "Create a page"*/
+.lien_du-bas{
+    color: #3C5C9b;
+    font-weight: bold;
+    text-decoration: none;
+}
+.barre{
+    border-top: 1px solid #d6d8db;
+}
