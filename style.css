@@ -5,7 +5,7 @@ body{
     padding: 0;
     text-decoration: none;
     font-family: Georgia, Arial, serif;
-    font-size: small;
+    font-size: 0.8rem;
     background-color: #edf0f5;
 }
 /*Css barre de navigation*/
@@ -15,8 +15,8 @@ body{
     flex-basis: 100%;
     height: 100px;
     flex-wrap: nowrap;
-    padding-left: 60px;
-    padding-right: 40px;
+    padding-left: 4rem;
+    padding-right: 2rem;
     background-color: #3e5b9a;
 }
 /*Css du titre facebook*/
@@ -26,42 +26,45 @@ body{
     flex-basis: 50%;
 }
 .logo{
-    margin-left: 150px;
-    font-size: 53px;
+    margin-left: 8.375rem;
+    font-size: 3rem;
     color: #fff;
+    background-color: #3e5b9a;
 }
 /*Css Côté input*/
 .nav-sign{
     display: flex;
     flex-basis: 50%;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 6rem;
     color: #fff;
-    font-size: 15px;
+    font-size: 0.9rem;
+    background-color: #3e5b9a;
 }
 .nav-input{
-    height: 23px;
-    width: 180px;
-    border: solid 1px #3e5b9a;
-    border-radius: 3px;
-    margin-right: 15px;
+    height: 1.5rem;
+    width: 11rem;
+    border: solid 0.0625rem #3e5b9a;
+    border-radius: 0.1875;
+    margin-right: 0.9375rem;
 }
 .nav-bouton{
-    height: 25px;
-    border: solid 1px #29487c;
+    height: 1.5rem;
+    border: solid 0.0625rem #29487c;
     background-color: #41619c;
     color: #fff;
-    font-size: 13px;
+    font-size: 0.6rem;
 }
 .nav-lien{
     text-decoration: none;
     color: #97afd5;
-    margin-left: 207px;
+    margin-left: 12.93rem;
 }
 /*Css pour le conteneur*/
 .conteneur{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     background-color: #edf0f5;
 }
 /*Css côté gauche*/
@@ -69,21 +72,21 @@ body{
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
-    padding-left: 100px;
-    font-size: 14px;
+    padding-left: 6.25rem;
+    font-size: 0.9rem;
     text-justify: distribute;
 }
 .boites-gauche{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     color: #6d6d6e;
 }
 .icon-gauche{
-    height: 60px;
-    width: 60px;
-    margin-right: 10px;
+    height: 3.75rem;
+    width: 3.75rem;
+    margin-right: 0.625rem;
 }
 .lien-gauche{
     text-decoration: none;
@@ -95,28 +98,28 @@ body{
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding-left: 30px;
-    padding-top: 30px;
-    font-size: 14px;
+    padding-left: 1.875rem;
+    padding-top: 1.875rem;
+    font-size: 0.875rem;
     color: #6d6d6e;
 }
 /*Css des input conbté droite*/
 .input-droites{
-    height: 24px;
-    width: 190px;
-    margin-right: 10px;
-    font-size: 17px;
+    height: 1.5rem;
+    width: 11.875rem;
+    margin-right: 0.625rem;
+    font-size: 0.9rem;
 }
 .input-droite{
-    height: 24px;
-    width: 400px;
-    font-size: 17px;
+    height: 1.5rem;
+    width: 25rem;
+    font-size: 0.9rem;
 }
 /*Css des selecteurs*/
 #selecteur{
-    width: 55px;
-    height: 24px;
-    margin-right: 5px;
+    width: 3.4375rem;
+    height: 1.5rem;
+    margin-right: 0.3125rem;
     background-color: #fff;
 }
 /*css des h1*/
@@ -125,21 +128,21 @@ h1{
 }
 /*Css des titre Birthday et Gender*/
 .td-titre{
-    font-size: 15px;
+    font-size: 1.3125rem;
     font-weight: bold;
 }
 .table{
-    margin-bottom: 14px;
+    margin-bottom: 0.2rem;
 }
 /*Css des input arondi et les petits titres au niveau de genre male female et custom*/
 .input-radio{
     color: black;
-    margin-top: 15px;
+    margin-top: 1.1rem;
 }
 .genre{
     color: black;
-    font-size: 15px;
-    margin-right: 20px;
+    font-size: 0.9rem;
+    margin-right: 1.25rem;
 }
 /*Css pour rendre certains mots terms, data .. en bleu*/
 .span{
@@ -149,12 +152,12 @@ h1{
 /*Css du bouton Sign Up*/
 .signup-bouton{
     background-color: #5d964a;
-    height: 28px;
-    width: 140px;
-    font-size: 17px;
+    height: 1.7rem;
+    width: 8.75rem;
+    font-size: 1.0625rem;
     color: #fff;
-    border: solid 1px #2f5416;
-    border-radius: 4px;
+    border: solid 0.0625rem #2f5416;
+    border-radius: 0.25rem;
 }
 /*Css du lien "Create a page"*/
 .lien_du-bas{
@@ -163,5 +166,8 @@ h1{
     text-decoration: none;
 }
 .barre{
-    border-top: 1px solid #d6d8db;
+    border-top: 0.0625rem solid #d6d8db;
+}
+h1{
+    font-size: 2rem;
 }
