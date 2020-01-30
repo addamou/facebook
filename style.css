@@ -13,8 +13,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-basis: 100%;
-    height: 100px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding-left: 4rem;
     padding-right: 2rem;
     background-color: #3e5b9a;
@@ -23,30 +22,33 @@ body{
 .nav-titre{
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
+    flex-basis: 40%;
+    height: 6.25rem;
 }
 .logo{
-    margin-left: 8.375rem;
     font-size: 3rem;
     color: #fff;
     background-color: #3e5b9a;
+    width: 40%;
+    padding-left: 9rem;
 }
 /*Css Côté input*/
 .nav-sign{
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 38%;
     align-items: center;
-    margin-left: 6rem;
+    height: 6.25rem;
     color: #fff;
     font-size: 0.9rem;
-    background-color: #3e5b9a;
 }
 .nav-input{
+    display: flex;
+    flex-direction: row;
     height: 1.5rem;
     width: 11rem;
     border: solid 0.0625rem #3e5b9a;
     border-radius: 0.1875;
-    margin-right: 0.9375rem;
+    margin-right: 0.6rem;
 }
 .nav-bouton{
     height: 1.5rem;
@@ -55,26 +57,31 @@ body{
     color: #fff;
     font-size: 0.6rem;
 }
+.nav-bouton:hover{
+    background-color: #6990e5 ;
+}
 .nav-lien{
     text-decoration: none;
     color: #97afd5;
-    margin-left: 12.93rem;
+    margin-left: 12.6rem;
 }
 /*Css pour le conteneur*/
 .conteneur{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-basis: 90%;
+    flex-wrap: wrap;
     background-color: #edf0f5;
 }
 /*Css côté gauche*/
 .conteneur-gauche{
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
+    flex-basis: 38%;
     padding-left: 6.25rem;
     font-size: 0.9rem;
     text-justify: distribute;
+    padding-right: 2rem;
 }
 .boites-gauche{
     display: flex;
@@ -97,8 +104,9 @@ body{
 .conteneur-droite{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    flex-basis: 35%;
     padding-left: 1.875rem;
+    padding-right: 1.875rem;
     padding-top: 1.875rem;
     font-size: 0.875rem;
     color: #6d6d6e;
